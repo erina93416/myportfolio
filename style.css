@@ -1,0 +1,496 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 5.05vw;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",
+  "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic,
+  "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  line-height: 1.8;
+  letter-spacing: .8px;
+  word-break: break-all;
+  color: #333;
+  font-size: 0.16rem;
+}
+
+a {
+  text-decoration: none;
+  color: #1ca9e3;
+}
+
+p {
+  font-size: 0.2rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border-style: none;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.pc-only {
+  display: block;
+}
+
+.sp-only {
+  display: none;
+}
+
+.heading-primary {
+  font-family: "Open sans", sans-serif;
+  font-size: 0.6rem;
+  font-weight: bold;
+  line-height: 1;
+  margin-bottom: 50px;
+  letter-spacing: .05em;
+}
+
+.section-heading {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.section-lead {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.wrapper {
+  padding-top: 68px;
+}
+
+.section {
+  padding: 60px 0;
+}
+
+.section:nth-of-type(odd) {
+  background-color: #f7f7f7;
+}
+
+.inner {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.anchor {
+  padding-top: 10%;
+}
+
+/* header */
+
+.navbar {
+  margin: 0 auto;
+  padding:0 0.3rem;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 1000;
+}
+
+.navbar-brand {
+  font-size: 0.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  font-size: 0.3rem;
+}
+
+.navbar-toggler {
+  font-size: 0.3rem;
+  padding: 0.25rem;
+}
+
+.navbar-toggler-icon {
+  width: 2em;
+  height: 2em;
+}
+
+/* top */
+
+main {
+  padding-top: 6%;
+}
+
+.top-image {
+  height: 400px;
+}
+
+.top-logo {
+  height: 100%;
+  width: 60%;
+  background-image: url(img/portfolio.png);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.logo {
+    position: relative;
+    margin-bottom: 0px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.logo-title {
+    font-family: "Open sans", sans-serif;
+    font-size: 0.8rem;
+    line-height: 1;
+    letter-spacing: .2em;
+    color: black;
+    font-weight: bold;
+}
+
+.logo-subtitle {
+    font-size: 0.4rem;
+    margin-top: 5px;
+    text-align: center;
+    letter-spacing: .2em;
+    color:black;
+}
+
+/* works */
+
+.works-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: -40px;
+}
+
+.works-item {
+  flex: 0 0 32.31552%;
+  margin-right: 1.52671%;
+  margin-bottom: 40px;
+}
+
+.works-item:nth-of-type(3n) {
+  margin-right: 0;
+}
+
+.works-body {
+  text-align: center;
+}
+
+.works-title {
+  font-size: 0.2rem;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.works-text {
+  font-size: 0.1rem;
+}
+
+.works-url {
+  font-size: 0.1rem;
+}
+
+.works-image {
+  height: 250px;
+}
+
+.works-image img {
+  height: 100%;
+}
+
+/* about */
+
+.about-section .inner {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.about-item {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.about-image-wrapper {
+  flex: 0 0 220px;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.about-image {
+  border-radius: 20%;
+  box-shadow: 0 0 25px 0 #d9d9d9;
+}
+
+.about-body {
+  flex: 1;
+}
+
+.about-body h1 {
+  font-size: 0.4rem;
+}
+
+.about-body p:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+/* skill */
+
+.skill-section .inner {
+  width: 80%;
+}
+
+.skill-block h3 {
+  font-size: 0.4rem;
+  margin: 20px 0;
+  text-align: left;
+  color: black;
+  border-bottom: 2px solid darkgray;
+}
+
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: -50px;
+  margin-left:10%;
+}
+
+.skill-item {
+  display: flex;
+  flex: 0 0 30%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.skill-image-wrapper {
+  flex: 0 0 60px;
+  margin-right: 20px;
+}
+
+.skill-body {
+  flex: 1;
+}
+
+.skill-body p:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.skill-body h4 {
+  font-size: 18px;
+}
+
+.skill-title {
+  margin-bottom: 3px;
+}
+
+.rate {
+  position: relative;
+  font-size: 20px;
+  display: inline-block;
+  width: 100%;
+  height: 20px;
+  letter-spacing: .3em;
+}
+
+.rate:before,
+.rate:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 20px;
+  display: inline-block;
+  height: 20px;
+  content: "★★★★★";
+}
+
+.rate:before {
+  color: #ddd;
+}
+
+.rate:after {
+  overflow: hidden;
+  white-space: nowrap;
+  color: #f181b4;
+}
+
+.rate1:after {
+  width: 25px;
+}
+
+.rate2:after {
+  width: 50px;
+}
+
+.rate3:after {
+  width: 75px;
+}
+
+.rate4:after {
+  width: 100px;
+}
+
+.rate5:after {
+  width: 125px;
+}
+
+/* service */
+
+.service-list {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.service-item {
+  width: 25%;
+}
+
+.service-body {
+  text-align: center;
+}
+
+.service-img {
+  width: 80%;
+  height: 20em;
+  margin: 0 auto;
+}
+
+.service-img img {
+  width: 80%;
+  height: 90%;
+}
+
+.service-title {
+  font-size: 0.4rem;
+  margin-bottom: 15px;
+}
+
+.service-body p {
+  width: 95%;
+  text-align: left;
+  font-size: 0.23rem;
+}
+
+/* contact */
+
+.contact-list {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 0;
+}
+
+.contact-item {
+  display: flex;
+  margin: 20px;
+  text-align: center;
+}
+
+.contact-text{
+  font-size: 0.25rem;
+  line-height: 0.8rem;
+}
+
+.contact-item span {
+  margin-right: 20px;
+}
+
+.fa-phone-square {
+  font-size: 0.8rem;
+  color:gray;
+}
+
+.fa-twitter-square {
+  font-size:  0.8rem;
+  color: #1da1f2;;
+}
+
+.fa-envelope {
+  font-size: 0.8rem;
+  color: gray;
+}
+
+.fa-github {
+  font-size: 0.8rem;
+  color:gray;
+}
+
+.fa-youtube {
+  font-size: 0.8rem;
+  color:#c4302b;
+}
+
+/* footer */
+
+footer {
+  background-color: #1d1d1d;
+}
+
+footer .inner {
+  padding: 30px;
+}
+
+.copyright {
+  font-size: 10px;
+  text-align: center;
+  color: #8c8c8c;
+}
+
+.page-top {
+  font-size: 12px;
+  font-weight: bold;
+  display: block;
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+  background-color: #ccc;
+}
+
+#page_top{
+  width: 80px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background: deepskyblue;
+  opacity: 0.9;
+  border-radius: 50%;
+}
+#page_top a{
+  position: relative;
+  display: block;
+  width: 100%;
+  padding-top: 100%;
+  text-decoration: none;
+}
+#page_top a::before{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f102';
+  font-size: 40px;
+  color: #fff;
+  position: absolute;
+  width: 80px;
+  height: 70px;
+  top: -5px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}

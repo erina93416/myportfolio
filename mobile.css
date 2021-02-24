@@ -1,0 +1,416 @@
+@media screen and (max-width:1200px){
+    /* contact */
+    .contact-list {
+        display: block;
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .heading-primary {
+      font-size: 0.8rem;
+    }
+
+    p {
+      font-size: 0.4rem;
+    }
+
+    main {
+      padding-top: 0;
+    }
+
+    /*header*/
+    .navbar-nav {
+        text-align: right;
+        background-color: rgba(219,217,217,.5);
+        padding-right: 0.5rem;
+    } 
+    
+    .navbar {
+        padding: 0;
+        position: static;
+    }
+    
+    .navbar-brand {
+        margin-left: 0.3rem;
+        font-size: 0.7rem;
+    }
+    
+    .navbar-toggler {
+        margin-right: 0.3rem;
+    }
+
+    .nav-item {
+      font-size: 0.5rem;
+    }
+    
+    /*top*/
+    .top-logo {
+      width: 80%;
+    }
+
+    .logo-title {
+      font-size: 1.5rem;
+      letter-spacing: .16em;
+    }
+  
+    .logo-subtitle {
+      font-size: 1rem;
+    }
+    
+    /* Works */
+    .works-item {
+      flex: 0 0 40%;
+      margin:10px auto;
+    }
+
+    .works-item:nth-of-type(3n) {
+      margin-right: auto;
+    }
+
+    .works-title, .works-text, .works-url {
+      font-size: 0.3rem;
+    }
+
+    /* about */
+    .about-item {
+      display: block;
+    }
+
+    .about-item img {
+      width: 70%;
+    }
+
+    .about-image-wrapper {
+      text-align: center;
+    }
+  
+    .about-body {
+      margin-top: 20px;
+    }
+  
+    .about-body h1 {
+      text-align: center;
+      font-size: 25px;
+    }
+  
+    /* Skill */
+    .skill-block h3 {
+      font-size: 0.5rem;
+    }
+
+    .skill-item {
+      flex:0 0 33%;
+    }
+
+    .skill-body h4 {
+      font-size: 0.42rem;
+    }
+  
+    /* Service */
+    .service-title {
+      font-size: 0.6rem;
+    }
+
+    .service-list {
+      flex-wrap: wrap;
+    }
+  
+    .service-item {
+      width: 50%;
+    }
+
+    .service-img {
+      width: 50%;
+      height: 25em;
+    }
+  
+    .service-body p {
+      width: 80%;
+      margin:0 auto 15px auto;
+      font-size: 0.4rem;
+    }
+
+    /* contact */
+    .contact-list {
+      width: 70%;
+    }
+
+    .fa-phone-square , .fa-envelope , .fa-twitter-square , .fa-github, .fa-youtube{
+      font-size: 1.5rem;
+  }
+
+    .contact-text {
+      font-size: 0.5rem;
+      line-height: 1.5rem;
+    }
+
+    /* footer */
+    .copyright {
+      font-size: 0.5rem;
+    }
+  
+  @media screen and (max-width:730px){
+    .navbar-brand {
+      font-size: 1rem;
+    }
+
+    
+
+    .heading-primary {
+      font-size: 1.2rem;
+    }
+
+    .works-list {
+      flex-direction: column;
+    }
+
+    .skill-block h3 {
+      font-size: 1rem;
+    }
+
+    .skill-item {
+      flex: 0 0 50%;
+    }
+
+    .skill-body h4 {
+      font-size: 23px;
+    }
+
+    .rate {
+      font-size: ;
+    }
+
+    .contact-list {
+        width: 63%;
+    }
+
+    #page_top {
+      width: 60px;
+    }
+
+    #page_top a::before {
+      font-size: 30px;
+      width: 60px;
+      height: 50px;
+    }
+  }
+  
+  @media screen and (max-width: 559px) {
+      html {
+        font-size: 8vw;
+      }
+
+      body {
+        line-height: 1.7;
+      }
+    
+      .pc-only {
+        display: none;
+      }
+    
+      .sp-only {
+        display: block;
+      }
+    
+      .hover-action {
+        -webkit-transition: none;
+        transition: none;
+      }
+    
+      .hover-action:hover {
+        -webkit-transition: none;
+        transition: none;
+        -webkit-transform: none;
+        transform: none;
+      }
+    
+      /* 文字 */
+      .section-heading {
+        margin-bottom: 20px;
+      }
+    
+      .heading-primary {
+        font-size: 0.8rem;
+      }
+    
+      /* レイアウト */
+      .wrapper {
+        padding-top: 0;
+      }
+    
+      .section {
+        padding: 60px 0;
+      }
+    
+      .section .inner {
+        padding: 0 15px;
+      }
+    
+      /* ヘッダー */
+      .header {
+        height: 50vh;
+      }
+  
+      .header-box {
+        background-size: contain;
+        background-size: cover;
+      }
+    
+      /* top */
+      .top-logo {
+        width: 95%;
+        height: 100%;
+      }
+  
+      /* Works */
+      .works-body {
+        text-align: left;
+      }
+    
+      .works-title {
+        font-size: 10px;
+      }
+    
+      .works-list {
+        flex-direction: column;
+      }
+    
+      .works-item {
+        flex: 0 0 48%;
+      }
+  
+      .works-image {
+        width: 300px;
+      }
+    
+    
+      /* About */
+      .about-item {
+        display: block;
+      }
+    
+      .about-image-wrapper {
+        width: 100vh;
+        max-width: 100%;
+        margin: 0 auto 20px;
+      }
+  
+      .about-body h1 {
+        text-align: center;
+      }
+    
+      /* Skill */
+      .skill-body h4 {
+        font-size: 0.5rem;
+      }
+
+      .skill-list {
+        display: block;
+        margin:0 auto;
+        width: 50%;
+      }
+    
+      .skill-item {
+        max-width: 100%;
+        margin-bottom: 35px;
+        flex-wrap: wrap;
+      }
+    
+      .skill-item:last-child {
+        margin-bottom: 0;
+      }
+    
+      .skill-image-wrapper {
+        flex: 0 0 75px;
+        margin-right: 15px;
+      }
+
+      .skill-block h3 {
+        font-size: 0.6rem;
+      }
+
+      .skill-body h4 {
+        font-size:0.4rem;
+      }
+    
+      .rate {
+        font-size: 15px;
+        height: 15px;
+      }
+    
+      .rate:before,
+      .rate:after {
+        line-height: 15px;
+        height: 15px;
+      }
+    
+      .rate1:after {
+        width: 15px;
+      }
+    
+      .rate2:after {
+        width: 35px;
+      }
+    
+      .rate3:after {
+        width: 55px;
+      }
+    
+      .rate4:after {
+        width: 75px;
+      }
+    
+      .rate5:after {
+        width: 95px;
+      }
+    
+      /* service */
+      .service-list {
+        flex-direction: column;
+        justify-content: center;
+      }
+  
+      .service-item {
+        width: 100%;
+      }
+
+      .service-img {
+        width: 40%;
+      }
+  
+      .service-body p{
+        margin: 0 auto 15px auto;
+        width: 50%;
+      }
+  
+      /* Contact */
+      .contact-list {
+        display: flex;
+        margin: 0;
+        justify-content: space-around;
+        width: 100%;
+        padding: 0;
+      }
+  
+      .contact-item {
+        width: 10%;
+        margin: 0 10px;
+      }
+
+      .fa-phone-square , .fa-envelope , .fa-twitter-square , .fa-github, .fa-youtube{
+          font-size: 2rem;
+      }
+    
+      /* フッター */
+      .footer .inner {
+        padding: 20px 0;
+      }
+
+      #page_top a::before {
+        font-size: 30px;
+        width: 60px;
+        height: 45px;
+      }
+    }
