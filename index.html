@@ -10,7 +10,7 @@
     <meta property='og:description' content='Webエンジニア ERINA SAITOのポートフォリオサイトです！'>
     <meta property="og:image" content="img/thumbnail.png">
     <meta name="description" content="北海道出身のWebエンジニア ERINA SAITOのポートフォリオサイトです！" />
-    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@cp4sm16" />
     <meta property="og:url" content="https://cp4sm16.com" />
     <meta property="og:title" content="ERINA SAITO ポートフォリオサイト" />
@@ -20,6 +20,7 @@
     <link href="style.css" media="all" rel="stylesheet" type="text/css" />
     <link href="mobile.css" media="all" rel="stylesheet" type="text/css" />
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -63,76 +64,128 @@
 
         <section class="works-section section anchor" id="works-section">
           <div class="inner">
-            <div class="section-heading">
+            <div class="section-heading animation">
               <h2 class="heading-primary">WORKS</h2>
             </div>
             <div class="section-lead">
-              <p>Web（デザインとコーディング）制作の記録です。<br>デザイン練習用の架空サイト（ファーストビューのみ）も含んでおります。</p>
+              <p>Web（デザインとコーディング）制作の記録です。
+                <!-- <br>デザイン練習用の架空サイト（ファーストビューのみ）も含んでおります。</p> -->
             </div>
             <div class="section-body works">
               <div class="works-list js-my-gallery">
-                <figure class="works-item">
-                  <div class="works-image">
-                    <img src="img/reactconcert-top.png" alt="">
+                <figure class="works-item animation">
+                  <div class="works-image modal-image-01">
+                    <img src="img/northtorch.png" alt="thumbnail">
                   </div>
                   <figcaption class="works-body">
-                    <div class="works-title">REACT CONCERT</div>
-                    <div class="works-text">Design / Coding(Responsive) / Ruby on Rails(移行中)</div>
-                    <div class="works-url"><a class="works-url-link" href="http://cp4sm16.xsrv.jp" target="_blank">Link</a></div>
+                    <div class="works-title"><a class="works-url-link"  target="_blank" href="https://www.northtorch.co.jp/" >NORTH TORCH株式会社</a></div>
+                    <div class="works-text">Wordpress</div>
                   </figcaption>
                 </figure>
-                <figure class="works-item">
-                  <div class="works-image">
-                    <img src="img/catdiarysite.png" alt="">
+                <figure class="works-item animation2">
+                  <div class="works-image modal-image-02"> 
+                    <img src="img/reactconcert.png" alt="">
                   </div>
                   <figcaption class="works-body">
-                    <div class="works-title">Cat Diary Site</div>
-                    <div class="works-text">Design / Coding(Responsive) / jQuery</div>
-                    <div class="works-url"><a class="works-url-link" href="http://www.cat-diary.site" target="_blank">Link</a></div>
+                    <div class="works-title"><a class="works-url-link" href="https://reactconcert.com" target="_blank">ReactConcert 2023</a></div>
+                    <div class="works-text">Design / Coding(Responsive) / React</div>
                   </figcaption>
                 </figure>
-                <figure class="works-item">
-                  <div class="works-image">
-                    <img src="img/tea-break.png" alt="">
+                <figure class="works-item animation3">
+                  <div class="works-image modal-image-03">
+                    <img src="img/bunsimokei.png" alt="">
                   </div>
                   <figcaption class="works-body">
-                    <div class="works-title">TEA BREAK</div>
-                    <div class="works-text">Wordpress / Practice</div>
+                    <div class="works-title"><a class="works-url-link" href="http://www17.plala.or.jp/ichirokasetu/" target="_blank">小樽分子模型の会</a></div>
+                    <div class="works-text">Design / Coding(Responsive) / Bootstrap / jQuery</div>
                   </figcaption>
                 </figure>
               </div>
             </div>
           </div>
         </section>
+        <div id="modal01" class="modal-content">
+          <div class="close-modal">
+            <i class="fas fa-times"></i>
+          </div>
+          <div id="contents">
+            <div class="modal-text">
+              <h2>NORTH TORCH株式会社</h2>
+              <a target="_blank" href="https://www.northtorch.co.jp/">LINK</a>
+              <p>Wordpress</p>
+              <div>
+                <h2>担当箇所</h2>
+                <p>NEWS,採用情報のページ追加</p>
+                <p>STAFF BLOGのデザイン変更(タグ、目次追加)</p>
+              </div>
+              <img src="img/northtorch-thumb.png" alt="large_card">
+            </div>
+          </div>
+        </div>
+        <div id="modal02" class="modal-content">
+          <div class="close-modal">
+            <i class="fas fa-times"></i>
+          </div>
+          <div id="contents">
+            <div class="modal-text">
+              <h2>ReactConcert 2023</h2>
+              <a target="_blank" href="https://reactconcert.com">LINK</a>
+              <p>Design / Coding(Responsive) / React</p>
+              <div>
+                <p>2023年5月4日に開催した演奏会で実際に使用したwebパンフレット</p>
+              </div>
+              <img src="img/reactconcert_thumb.png" alt="large_card">
+            </div>
+          </div>
+        </div>
+        <div id="modal03" class="modal-content">
+          <div class="close-modal">
+            <i class="fas fa-times"></i>
+          </div>
+          <div id="contents">
+            <div class="modal-text">
+              <h2>小樽分子模型の会</h2>
+              <a target="_blank" href="http://www17.plala.or.jp/ichirokasetu/">LINK</a>
+              <p>Design / Coding(Responsive) / Bootstrap / jQuery</p>
+              <img src="img/bunsi_all.png" alt="large_card">
+            </div>
+          </div>
+        </div>
+
 
         <section class="about-section section anchor" id="about-section">
           <div class="inner">
             <div class="section-heading">
-              <h2 class="heading-primary">ABOUT</h2>
+              <h2 class="heading-primary animation">ABOUT</h2>
             </div>
             <div class="section-body about">
               <div class="about-item">
-                <div class="about-image-wrapper">
+                <div class="about-image-wrapper animation">
                   <img class="about-image lazyload fadein" src="img/IMG_5187.jpeg" alt="">
                 </div>
-                <div class="about-body">
+                <div class="about-body animation2">
                   <h1>
-                    ERINA SAITO <br class="sp-only">/ Web Enginner
+                    ERINA SAITO <br class="sp-only">/ Web Engineer
                   </h1>
                   <p>
                     略歴<br>
                     1993年　北海道小樽市に生まれる<br>2012年　小樽双葉高校を卒業後、関西学院大学経済学部へ入学
                     <br>週6日の部活動(吹奏楽)と勉強を両立しながら、聴覚障害の学生のためのノートテイク活動にも参加
                     <br>2016年　大学在学中に精神疾患を患い中退、小樽へ帰郷しアルバイトで生活を続ける
-                    <br>2020年　新型コロナウイルスによる自粛期間に独立を考え、独学で猛勉強
-                    <br>→11月より道内の制作会社にてコーダー(業務委託)
                     <br>2021年　東京通信大学情報マネジメント学部情報マネジメント学科　2年次編入
-                    <br>卒業までは学業と両立させながら様々な分野に触れて幅を広げていきたいと思っています
+                    <br>2024年3月　東京通信大学情報マネジメント学部情報マネジメント学科　卒業予定
+                  </p>
+                  <p>
+                    職歴<br>
+                    2020年　新型コロナウイルスによる自粛期間に独立を考え、独学で猛勉強
+                    <br>2020年11月〜　道内の制作会社にてコーダー(業務委託)
+                    <br>2022年3月〜2023年7月　NorthTorch株式会社にてフロントエンド・バックエンドエンジニア(業務委託)
                   </p>
                   <p>強み<br>
-                    幼い頃から公文式を学習。早くから学年を越えた教材を学習し、自学自習力と継続することの大切さを学ぶ。上昇志向が強く、吸収力も高い。<br>
-                    吹奏楽を通じて大学時代に出会った仲間たちと「関西学生メモリアルコンサート2016」を開催。
+                    幼い頃から公文式を学習、早くから学年を越えた教材を学習し、自学自習力と継続することの大切さを学ぶ。上昇志向が強く、吸収力も高い。<br>
+                    2016年2月に兵庫県尼崎市にて、吹奏楽を通じて大学時代に出会った仲間たちと「関西学生メモリアルコンサート2016」を開催。
                     またその演奏会のメンバーをベースに吹奏楽団「Re://Act Concert」を立ち上げる。企画、広報、管理と多岐にわたり運営を担当している。
+                    コロナ禍を経て2023年5月4日に「関西学生メモリアルコンサート2016」と同様の会場で開催。
                   </p>
                 </div>
               </div>
@@ -142,11 +195,11 @@
 
         <section class="skill-section section anchor" id="skill-section">
           <div class="inner">
-            <div class="section-heading">
+            <div class="section-heading animation_t1">
               <h2 class="heading-primary">SKILL</h2>
             </div>
             <div class="section-body skill">
-              <div class="skill-block">
+              <div class="skill-block animation_t2">
                 <h3>Frontend</h3>
                 <div class="skill-list">
                   <div class="skill-item">
@@ -175,22 +228,6 @@
                   </div>
                   <div class="skill-item">
                     <div class="skill-body">
-                      <h4 class="skill-title">Node.js</h4>
-                      <div class="skill-rating rating">
-                        <div class="rate rate2"></div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="skill-item">
-                    <div class="skill-body">
-                      <h4 class="skill-title">Java</h4>
-                      <div class="skill-rating rating">
-                        <div class="rate rate2"></div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="skill-item">
-                    <div class="skill-body">
                       <h4 class="skill-title">React</h4>
                       <div class="skill-rating rating">
                         <div class="rate rate2"></div>
@@ -199,20 +236,12 @@
                   </div>
                 </div>
               </div>
-              <div class="skill-block">
+              <div class="skill-block animation_t3">
                 <h3>Serverside</h3>
                 <div class="skill-list">
                   <div class="skill-item">
                     <div class="skill-body">
                       <h4 class="skill-title">PHP</h3>
-                      <div class="skill-rating rating">
-                        <div class="rate rate4"></div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="skill-item">
-                    <div class="skill-body">
-                      <h4 class="skill-title">WordPress</h3>
                       <div class="skill-rating rating">
                         <div class="rate rate3"></div>
                       </div>
@@ -220,34 +249,10 @@
                   </div>
                   <div class="skill-item">
                     <div class="skill-body">
-                      <h4 class="skill-title">SQL</h3>
-                        <div class="skill-rating rating">
-                          <div class="rate rate3"></div>
-                        </div>
-                      </div>
-                    </div>
-                  <div class="skill-item">
-                    <div class="skill-body">
-                      <h4 class="skill-title">Ruby</h3>
+                      <h4 class="skill-title">WordPress</h3>
                       <div class="skill-rating rating">
                         <div class="rate rate4"></div>
                       </div>
-                    </div>
-                  </div>
-                  <div class="skill-item">
-                    <div class="skill-body">
-                      <h4 class="skill-title">Ruby on Rails</h3>
-                      <div class="skill-rating rating">
-                        <div class="rate rate4"></div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="skill-item">
-                    <div class="skill-body">
-                      <h4 class="skill-title">Go</h3>
-                        <div class="skill-rating rating">
-                          <div class="rate rate3"></div>
-                        </div>
                     </div>
                   </div>
                   <div class="skill-item">
@@ -258,9 +263,41 @@
                       </div>
                     </div>
                   </div>
+                  <div class="skill-item">
+                    <div class="skill-body">
+                      <h4 class="skill-title">Django</h3>
+                      <div class="skill-rating rating">
+                        <div class="rate rate2"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <div class="skill-body">
+                      <h4 class="skill-title">SQL</h3>
+                        <div class="skill-rating rating">
+                          <div class="rate rate2"></div>
+                        </div>
+                      </div>
+                    </div>
+                  <div class="skill-item">
+                    <div class="skill-body">
+                      <h4 class="skill-title">Ruby</h3>
+                      <div class="skill-rating rating">
+                        <div class="rate rate2"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <div class="skill-body">
+                      <h4 class="skill-title">Ruby on Rails</h3>
+                      <div class="skill-rating rating">
+                        <div class="rate rate2"></div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div class="skill-block">
+              <div class="skill-block animation_t4">
                 <h3>Other</h3>
                 <div class="skill-list">
                   <div class="skill-item">
@@ -287,6 +324,30 @@
                       </div>
                     </div>
                   </div>
+                  <div class="skill-item">
+                    <div class="skill-body">
+                      <h4 class="skill-title">Windows</h3>
+                      <div class="skill-rating rating">
+                        <div class="rate rate4"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <div class="skill-body">
+                      <h4 class="skill-title">Mac</h3>
+                      <div class="skill-rating rating">
+                        <div class="rate rate4"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <div class="skill-body">
+                      <h4 class="skill-title">iPhone,iPad</h3>
+                      <div class="skill-rating rating">
+                        <div class="rate rate4"></div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -295,12 +356,12 @@
 
         <section class="service-section section anchor" id="service-section">
           <div class="inner">
-            <div class="section-heading">
+            <div class="section-heading animation">
               <h2 class="heading-primary">SERVICE</h2>
             </div>
             <div class="section-body service">
               <div class="service-list">
-                <div class="service-item">
+                <div class="service-item animation">
                   <div class="service-body">
                     <h3 class="service-title">webコーディング</h3>
                     <div class="service-img">
@@ -310,7 +371,7 @@
                       デザインは専門外のため、あらかじめデザインデータをご用意ください。</p>
                   </div>
                 </div>
-                <div class="service-item">
+                <div class="service-item animation2">
                   <div class="service-body">
                     <h3 class="service-title">レスポンシブ化</h3>
                     <div class="service-img">  
@@ -319,7 +380,7 @@
                     <p>スマートフォンやタブレットの画面のサイズに合わせて表示の仕方を変更し、見やすくします。</p>
                   </div>
                 </div>
-                <div class="service-item">
+                <div class="service-item animation3">
                   <div class="service-body">
                     <h3 class="service-title">WordPress化</h3>
                     <div class="service-img">
@@ -329,7 +390,7 @@
                       既存サイトのリニューアルも可能です。</p>
                   </div>
                 </div>
-                <div class="service-item">
+                <div class="service-item animation4">
                   <div class="service-body">
                     <h3 class="service-title">文字起こし</h3>
                     <div class="service-img">
@@ -351,18 +412,18 @@
             </div>
             <div class="section-lead">
               <p>
-                お問い合わせは、<br class="sp-only">電話、メール、SNSでお願いいたします。
+                お問い合わせは、<br class="sp-only">メール、公式ライン、SNSでお願いいたします。
               </p>
             </div>
             <div class="section-body contact">
               <ul class="contact-list">
                 <li class="contact-item">
-                  <a href="tel:05058588286"><span class="fas fa-phone-square"></span></a>
-                  <a class="pc-only contact-text" href="tel:05058588286" >tel:050-5858-8286</a>
-                </li>
-                <li class="contact-item">
                   <a href="mailto:contact@cp4sm16.com"><span class="far fa-envelope"></span></a>
                   <a class="pc-only contact-text" href="mailto:contact@cp4sm16.com">contact@cp4sm16.com</a>
+                </li>
+                <li class="contact-item line">
+                  <a href="https://lin.ee/xYqrl6m" target="_blank"><span class="fab fa-line"></span></a>
+                  <a class="pc-only contact-text" href="https://lin.ee/xYqrl6m">えりな先生とITを学ぼう！</a>
                 </li>
                 <li class="contact-item">
                   <a href="https://twitter.com/cp4sm16" target="_blank"><span class="fab fa-twitter-square"></span></a>
@@ -386,9 +447,10 @@
 
     <div id="page_top"><a href="#"></a></div>
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
 <script type="text/JavaScript" src="script.js"></script>
 </body>
 </html>
